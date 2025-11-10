@@ -62,6 +62,10 @@ install(TARGETS
   PROGRAMS 
   script/dg5f_left_test.py
   script/dg5f_right_test.py
+  script/dg5f_right_manus_direct_teleop.py
+  script/keyboard_util.py
+  script/dg5f_right_pid_test.py
+  script/tesollo_ik_finger_vectors_teleop_exec.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
